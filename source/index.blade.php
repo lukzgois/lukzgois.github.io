@@ -11,7 +11,7 @@
       <h2>
         <a href="{{ $post->getUrl() }}" class="no-underline text-grey-darkest">{{ $post->title }}</a>
       </h2>
-      <p class="mt-2 text-sm leading-tight">
+      <p class="mt-4 text-sm leading-normal">
         <a href="{{ $post->getUrl() }}" class="no-underline text-grey-darker">
           {!! $post->short !!}
         </a>
