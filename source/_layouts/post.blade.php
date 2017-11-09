@@ -10,12 +10,13 @@
   </div>
 
   <div class="mx-2">
+    <a href="/" class="my-4 block">⬅ Voltar</a>
     <h1 class="text-grey-darkest mb-2">{{ $page->title }}</h1>
 
     <div class="post-content">
       @yield('content')
 
-      <a href="/" class="text-center">⬅ Voltar</a>
+      <a href="/">⬅ Voltar</a>
     </div>
 
 
