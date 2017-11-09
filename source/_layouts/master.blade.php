@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
         <link rel="stylesheet" href="/css/main.css">
 
         <title>Lucas Padilha Gois</title>
@@ -13,6 +13,10 @@
     <body>
       @include('_partials.topbar')
 
-      @yield('body')
+      <div class="max-w-md mx-auto">
+        @yield('body')
+
+        @include('_partials.footer')
+      </div>
     </body>
 </html>
