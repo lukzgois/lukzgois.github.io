@@ -1,12 +1,28 @@
 @tailwind preflight;
 
 body {
-    @apply font-sans text-grey-darker;
-    background: hsl(207, 42%, 97%)
+    @apply font-sans text-grey-darkest;
 }
 
-.title, .title:visited {
-    @apply text-black text-4xl no-underline;
+a {
+    @apply text-blue-dark no-underline;
+
+    &:hover {
+        @apply underline;
+    }
+}
+
+.post-content {
+    @apply border-b py-6 leading-loose;
+
+    p {
+        @apply mb-8;
+
+        &:last-child {
+            @apply mb-0;
+        }
+    }
+
 }
 
 @tailwind utilities;
