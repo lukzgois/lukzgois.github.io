@@ -9,6 +9,16 @@
         <link rel="stylesheet" href="/css/main.css">
 
         <title>Lucas Padilha Gois</title>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ $page->googleKey }}"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '{{ $page->googleKey }}');
+        </script>
     </head>
     <body>
       @include('_partials.topbar')
