@@ -4,6 +4,8 @@ return [
     'baseUrl' => '',
     'production' => false,
     'collections' => [
-        'posts'
+        'posts' => [
+            'sort' => '-date'
+        ]
     ],
 ];

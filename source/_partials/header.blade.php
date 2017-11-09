@@ -1,7 +1,7 @@
 <div class="flex flex-col items-center my-4">
   <img src="/images/avatar.jpg" class="rounded-full h-32 w-32 mb-4 border border-grey" alt="" />
   <h2>
-    <a href="/" class="title">Lucas Padilha Gois</a>
+    <a href="/" class="text-black text-4xl no-underline">Lucas Padilha Gois</a>
   </h2>
   <div class="mt-4">
     <a href="https://twitter.com/lukz_" target="_blank" class="mx-1 no-underline text-grey hover:text-grey-dark">@include('svg.twitter')</a>

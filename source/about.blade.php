@@ -2,7 +2,7 @@
 
 @section('body')
   @include('_partials.header')
-  <div class="border-t border-b mx-4 py-6 leading-normal">
+  <div class="border-t border-b mx-2 py-6 leading-normal">
     <p class="mb-4">
       Desenvolvedor Web desde 2006, apaixonado por tecnologia, viciado em café e apreciador de cerveja. Entusiasta de tecnologias web, estudante de <strong>Laravel, Rails, React, Vuejs</strong> e qualquer coisa que chame minha atenção.
     </p>
