@@ -3,3 +3,4 @@
 /vendor/
 source/css
 source/mix-manifest.json
+build_production
